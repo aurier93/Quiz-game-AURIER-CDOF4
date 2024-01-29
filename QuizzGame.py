@@ -5,7 +5,7 @@ Created on Mon Jan 29 14:11:21 2024
 @author: Michel
 """
 
-import os
+
 import platform
 
 # Clear the screen based on the user's operating system
@@ -34,7 +34,7 @@ def run_quiz(questions):
                     print("Please enter a valid option number.")
             except ValueError:
                 print("Invalid input. Please enter a number.")
-        user_answer+=1
+        
         
         
         # Check if the answer is correct
