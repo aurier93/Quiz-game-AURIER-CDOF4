@@ -5,7 +5,7 @@ Created on Mon Jan 29 14:11:21 2024
 @author: Michel
 """
 
-
+import os
 import platform
 
 # Clear the screen based on the user's operating system
