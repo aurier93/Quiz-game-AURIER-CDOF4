@@ -34,6 +34,8 @@ def run_quiz(questions):
                     print("Please enter a valid option number.")
             except ValueError:
                 print("Invalid input. Please enter a number.")
+        user_answer+=1
+        
         
         # Check if the answer is correct
         if question["options"][user_answer - 1] == question["answer"]:
